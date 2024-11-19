@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [vue()],
-  base: "/my-portfolio", // Replace with your repository name for GitHub Pages
+  base: "/my-portfolio/", // Replace with your repository name for GitHub Pages
   build: {
     outDir: "dist", // Ensure compatibility with existing deployment scripts
   },
