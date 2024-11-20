@@ -4,6 +4,9 @@
     <router-link to="/about">About</router-link>
   </nav>
   <router-view />
+  <div class="bg-blue-500 text-white p-6">
+    <h1 class="text-xl">Tailwind is working!</h1>
+  </div>
 </template>
 
 <style lang="scss">
