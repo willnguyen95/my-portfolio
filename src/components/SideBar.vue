@@ -51,22 +51,7 @@
             :to="item.path"
             class="flex items-center px-4 py-2 hover:bg-blue-600 transition-colors duration-200 rounded"
           >
-            <svg
-              :data-tooltip-target="'tooltip-' + item.name"
-              data-tooltip-placement="right"
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 12l2-2m0 0l7-7 7 7m-2 2v7a2 2 0 01-2 2h-4a2 2 0 01-2-2v-7m0 0l-2 2"
-              />
-            </svg>
+            <font-awesome-icon :icon="['fas', item.icon]" />
             <span v-if="isOpen" class="ml-4">{{ item.name }}</span>
           </router-link>
           <div
@@ -92,13 +77,13 @@
 
 <script setup>
 import { ref } from "vue";
-
+//import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 const isOpen = ref(false);
 const navList = [
-  { name: "Home", path: "/" },
-  { name: "Projects", path: "/projects" },
-  { name: "Contact", path: "/contact" },
-  { name: "About Us", path: "/about" },
+  { name: "Home", path: "/", icon: "home" },
+  { name: "Projects", path: "/projects", icon: "project-diagram" },
+  { name: "Contact", path: "/contact", icon: "phone" },
+  { name: "About Us", path: "/about", icon: "home" },
 ];
 const toggleSidebar = () => {
   isOpen.value = !isOpen.value;
