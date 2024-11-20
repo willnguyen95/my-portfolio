@@ -28,6 +28,12 @@
 // }
 </style>
 <script setup lang="ts">
-import NavBar from "@/components/NavBar.vue";
-import SideBar from '@/components/SideBar.vue';
+//import NavBar from "@/components/NavBar.vue";
+import SideBar from "@/components/SideBar.vue";
+import { onMounted } from "vue";
+import { initFlowbite } from "flowbite";
+
+onMounted(() => {
+  initFlowbite();
+});
 </script>
