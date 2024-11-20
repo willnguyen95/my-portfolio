@@ -1,5 +1,5 @@
 <template>
-    <section class="p-10 bg-gray-50">
+    <section class="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-[#BFECFF] to-[#77CDFF] text-[#0D92F4]">
       <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
       <p class="text-center mb-4">Feel free to reach out via the links below:</p>
       <div class="flex justify-center space-x-6">

@@ -1,12 +1,8 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
-  <div class="bg-blue-500 text-white p-6">
-    <h1 class="text-xl">Tailwind is working!</h1>
-  </div>
+  <!-- <nav-bar></nav-bar> -->
+  <side-bar>
+    <router-view />
+  </side-bar>
 </template>
 
 <style lang="scss">
@@ -18,16 +14,20 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
+// nav {
+//   padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+//   a {
+//     font-weight: bold;
+//     color: #2c3e50;
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+//     &.router-link-exact-active {
+//       color: #42b983;
+//     }
+//   }
+// }
 </style>
+<script setup lang="ts">
+import NavBar from "@/components/NavBar.vue";
+import SideBar from '@/components/SideBar.vue';
+</script>

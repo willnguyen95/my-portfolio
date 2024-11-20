@@ -1,5 +1,5 @@
 <template>
-    <section class="p-10 bg-gray-100">
+    <section class="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-[#BFECFF] to-[#77CDFF] text-[#0D92F4]">
       <h2 class="text-3xl font-bold text-center mb-8">My Projects</h2>
       <div class="flex justify-center space-x-4 mb-6">
         <button
