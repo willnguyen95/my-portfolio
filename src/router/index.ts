@@ -1,8 +1,9 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import Projects from '@/views/Projects.vue';
 import About from '@/views/AboutView.vue';
 import Contact from '@/views/ContactView.vue';
+import ChatBot from '@/views/ChatBot.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -27,11 +28,12 @@ const routes: Array<RouteRecordRaw> = [
     path: "/contact",
     name: "contact",
     component: Contact,
-  }
+  },
+  { path: '/chatbot', name: 'ChatBot', component: ChatBot },
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 

@@ -1,5 +1,7 @@
 <template>
-  <section class="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-[#BFECFF] to-[#77CDFF] text-[#0D92F4]">
+  <section
+    class="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-[#BFECFF] to-[#77CDFF] text-[#0D92F4]"
+  >
     <div class="text-center">
       <h1 class="text-4xl font-bold">
         Hi, I'm <span class="text-[#0D92F4]">Your Name</span>
@@ -19,11 +21,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-const tagline = ref('building data-driven solutions.');
+import { ref } from "vue";
+const tagline = ref("building data-driven solutions.");
 
 const navigateToProjects = () => {
-  window.location.href = '/projects';
+  window.location.href = "/projects";
 };
-
 </script>

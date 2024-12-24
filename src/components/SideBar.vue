@@ -84,6 +84,7 @@ const navList = [
   { name: "Projects", path: "/projects", icon: "project-diagram" },
   { name: "Contact", path: "/contact", icon: "phone" },
   { name: "About Us", path: "/about", icon: "home" },
+  { name: "Chatbot", path: "/chatbot", icon: "robot" },
 ];
 const toggleSidebar = () => {
   isOpen.value = !isOpen.value;
