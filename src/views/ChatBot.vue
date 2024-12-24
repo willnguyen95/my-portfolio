@@ -7,7 +7,10 @@
     </div>
 
     <!-- Chat Messages -->
-    <div ref="chatContainer" class="flex-grow overflow-y-auto p-4 space-y-4">
+    <div
+      ref="chatContainer"
+      class="flex flex-col flex-grow overflow-y-auto p-4 space-y-4"
+    >
       <div
         v-for="(message, index) in messages"
         :key="index"
