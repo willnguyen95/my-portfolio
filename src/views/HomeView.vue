@@ -46,16 +46,7 @@ const basicInfo = ref({
   tagline: "building data-driven solutions.",
   about:
     "I am a web developer with a passion for creating beautiful and functional websites. With a background in computer science and a keen eye for design, I bring a unique blend of technical and creative skills to every project.",
-  skills: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Node.js",
-    "Tailwind CSS",
-    "Python",
-    "Django",
-  ],
+  skills: ["SQL", "C#", ".NET", "Python", "HTML", "CSS", "JavaScript", "Vue.js"],
 });
 const navigateToProjects = () => {
   window.location.href = "/my-portfolio/projects";
