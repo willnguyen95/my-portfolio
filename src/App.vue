@@ -1,8 +1,9 @@
 <template>
-  <!-- <nav-bar></nav-bar> -->
-  <side-bar>
+  <nav-bar></nav-bar>
+  <router-view />
+  <!-- <side-bar>
     <router-view />
-  </side-bar>
+  </side-bar> -->
 </template>
 
 <style lang="scss">
@@ -28,8 +29,8 @@
 // }
 </style>
 <script setup lang="ts">
-//import NavBar from "@/components/NavBar.vue";
-import SideBar from "@/components/SideBar.vue";
+import NavBar from "@/components/NavBar.vue";
+//import SideBar from "@/components/SideBar.vue";
 import { onMounted } from "vue";
 import { initFlowbite } from "flowbite";
 
