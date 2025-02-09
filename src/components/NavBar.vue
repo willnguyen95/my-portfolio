@@ -23,12 +23,12 @@
           >
             Projects
           </router-link>
-          <router-link
+          <!-- <router-link
             to="/about"
             class="text-white hover:text-gray-200 px-3 py-2 rounded-md text-sm font-medium"
           >
             About Me
-          </router-link>
+          </router-link> -->
           <router-link
             to="/contact"
             class="text-white hover:text-gray-200 px-3 py-2 rounded-md text-sm font-medium"

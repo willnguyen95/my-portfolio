@@ -4,7 +4,7 @@
     <div
       :class="[
         isOpen ? 'w-64' : 'w-16',
-        'h-screen bg-blue-500 text-white transition-width duration-300 fixed top-0 left-0 shadow-md',
+        'h-screen bg-blue-600 text-white transition-width duration-300 fixed top-0 left-0 shadow-md',
       ]"
     >
       <div class="flex items-center justify-between h-16 px-4">
@@ -20,7 +20,7 @@
         <li v-for="item of navList">
           <router-link
             :to="item.path"
-            class="flex items-center px-4 py-2 hover:bg-blue-600 transition-colors duration-200 rounded"
+            class="flex items-center px-4 py-2 hover:bg-blue-700 transition-colors duration-200 rounded"
           >
             <font-awesome-icon :icon="['fas', item.icon]" />
             <span v-if="isOpen" class="ml-4">{{ item.name }}</span>

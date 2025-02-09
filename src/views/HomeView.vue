@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-[#BFECFF] to-[#62c1f8] text-blue-600"
+    class="flex flex-col items-center justify-center h-screen bg-[#f9f8ff] to-[#62c1f8] text-blue-600"
   >
     <div class="text-center">
       <h1 class="text-4xl font-bold">
@@ -31,7 +31,7 @@
       </section>
       <button
         @click="navigateToProjects"
-        class="mt-8 px-6 py-3 bg-[#0D92F4] text-white rounded-lg hover:bg-[#0b7ac4]"
+        class="mt-8 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-800"
       >
         View Projects
       </button>
@@ -41,9 +41,8 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-const tagline = ref("building data-driven solutions.");
 const basicInfo = ref({
-  name: "Your Name",
+  name: "Nguyen Ngoc Gia Bao",
   tagline: "building data-driven solutions.",
   about:
     "I am a web developer with a passion for creating beautiful and functional websites. With a background in computer science and a keen eye for design, I bring a unique blend of technical and creative skills to every project.",
@@ -59,6 +58,6 @@ const basicInfo = ref({
   ],
 });
 const navigateToProjects = () => {
-  window.location.href = "/projects";
+  window.location.href = "/my-portfolio/projects";
 };
 </script>
