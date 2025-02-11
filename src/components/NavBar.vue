@@ -96,13 +96,6 @@
       >
         About Me
       </router-link>
-      <router-link
-        to="/contact"
-        class="block text-white hover:text-gray-200 px-3 py-2 rounded-md text-base font-medium"
-        @click="closeMenu"
-      >
-        Contact
-      </router-link>
     </div>
   </nav>
 </template>

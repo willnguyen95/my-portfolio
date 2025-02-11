@@ -53,7 +53,6 @@ const isOpen = ref(false);
 const navList = [
   { name: "Home", path: "/", icon: "home" },
   { name: "Projects", path: "/projects", icon: "project-diagram" },
-  { name: "Contact", path: "/contact", icon: "phone" },
   { name: "About Us", path: "/about", icon: "home" },
   { name: "Chatbot", path: "/chatbot", icon: "robot" },
 ];

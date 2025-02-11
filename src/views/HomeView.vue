@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="flex flex-col items-center justify-center h-screen bg-[#f9f8ff] to-[#62c1f8] text-blue-600"
-  >
+  <section class="flex flex-col items-center justify-center text-blue-600">
     <div class="text-center">
       <h1 class="text-4xl font-bold">
         Hi, I'm <span class="text-blue-600">{{ basicInfo.name }}</span>

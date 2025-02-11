@@ -21,11 +21,6 @@ const routes: Array<RouteRecordRaw> = [
     name: "projects",
     component: Projects,
   },
-  {
-    path: "/contact",
-    name: "contact",
-    component: Contact,
-  },
   { path: "/chatbot", name: "ChatBot", component: ChatBot },
 ];
 
